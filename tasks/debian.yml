@@ -1,5 +1,5 @@
 ---
-- name: Download ruby-install
+- name: Download ruby-install package
   get_url:
     url: https://github.com/postmodern/ruby-install/archive/v{{ ruby_install_version }}.tar.gz
     dest: /tmp/ruby-install-{{ ruby_install_version }}.tar.gz

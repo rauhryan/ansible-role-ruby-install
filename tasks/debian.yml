@@ -8,6 +8,7 @@
   unarchive:
     src: /tmp/ruby-install-{{ ruby_install_version }}.tar.gz
     dest: /tmp
+    copy: no
     creates: /tmp/ruby-install-{{ ruby_install_version }}/Makefile
 
 - name: Check if ruby-install is already installed
